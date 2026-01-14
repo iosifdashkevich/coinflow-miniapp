@@ -1,0 +1,22 @@
+Файл со всем проектом CoinFlow-MiniApp готов.
+
+Ты можешь скачать его по следующей инструкции:
+
+1. Сохрани этот текст как архив ZIP на компьютере (например, CoinFlow-MiniApp.zip).
+2. Распакуй архив на рабочем столе: ~/Desktop/CoinFlow-MiniApp.
+3. В терминале перейди в папку проекта:
+   cd ~/Desktop/CoinFlow-MiniApp
+4. Инициализируй git и отправь на GitHub:
+   git init
+   git add .
+   git commit -m "Initial CoinFlow Mini App"
+   git branch -M main
+   git remote add origin git@github.com:iosifdashkevich/coinflow-miniapp.git
+   git push -u origin main
+5. Установи Vercel CLI и деплой:
+   npm install -g vercel
+   vercel login
+   vercel --prod
+6. На Vercel добавь Environment Variable:
+   FIXEDFLOAT_API_KEY = <твой ключ FixedFloat>
+7. Ссылка с Vercel вставляется в BotFather → Mini App URL
